@@ -1,4 +1,4 @@
-# Literacy_Opensource
+# LiteracyALL_Opensource (LiterALLcy APP)
 
 Literallcy has been developed under the policy of OpenSource.
 
