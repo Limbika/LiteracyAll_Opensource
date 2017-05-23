@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/six_hundred"
+    android:layout_height="@dimen/four_hundred"
+    android:background="@drawable/rectangle_bg">
+
+
+    <ImageButton
+        android:layout_width="@dimen/seventy"
+        android:layout_height="@dimen/seventy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/ten"
+        android:visibility="invisible"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_back" />
+
+
+    <ImageButton
+        android:layout_width="@dimen/two_hundred"
+        android:layout_height="@dimen/hundred"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/fourty"
+        android:layout_marginTop="@dimen/twenty"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_logo_large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/two_hundred_fifty"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fourty"
+        android:background="@drawable/rectangle_bg"
+        android:orientation="vertical"
+        android:weightSum="1.12">
+
+
+        <ImageButton
+            android:layout_width="@dimen/two_hundred"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".2"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/five"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_erasmus" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".012"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".8"
+            android:gravity="center"
+            android:padding="@dimen/ten"
+            android:text="@string/Erasmus"
+            android:textAlignment="textStart"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

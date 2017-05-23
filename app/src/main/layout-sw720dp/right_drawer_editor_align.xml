@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".85"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".15"
+        android:background="@drawable/entry_slide_background"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:weightSum=".7">
+
+                <!--this is the start of a row-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibtnAlignCenterAlign"
+                        android:layout_width="@dimen/sixty"
+                        android:layout_height="@dimen/sixty"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_align_center" />
+
+
+                    <!--this is the end of a row-->
+                </LinearLayout>
+                <!--this is the start of a row-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibtnAlignLeftAlign"
+                        android:layout_width="@dimen/sixty"
+                        android:layout_height="@dimen/sixty"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_align_left" />
+
+                    <!--this is the end of a row-->
+                </LinearLayout>
+                <!--this is the start of a row-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibtnAlignRightAlign"
+                        android:layout_width="@dimen/sixty"
+                        android:layout_height="@dimen/sixty"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_align_right" />
+
+
+                    <!--this is the end of a row-->
+                </LinearLayout>
+                <!--this is the start of a row-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibtnAlignBottomAlign"
+                        android:layout_width="@dimen/sixty"
+                        android:layout_height="@dimen/sixty"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_align_botton" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibtnAlignTopAlign"
+                        android:layout_width="@dimen/sixty"
+                        android:layout_height="@dimen/sixty"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_align_top" />
+
+                    <!--this is the end of a row-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibtnAlignXCenter"
+                        android:layout_width="@dimen/fifty_five"
+                        android:layout_height="@dimen/fifty_five"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_align_x_screen_center" />
+
+                    <!--this is the end of a row-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/ibtnAlignYCenter"
+                        android:layout_width="@dimen/fifty_five"
+                        android:layout_height="@dimen/fifty_five"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_align_y_screen_center"/>
+
+                    <!--this is the end of a row-->
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

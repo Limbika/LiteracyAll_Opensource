@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".75"
+        android:orientation="vertical"
+        android:weightSum="1"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".25"
+        android:background="@drawable/entry_slide_background"
+        android:orientation="vertical"
+        android:weightSum=".9">
+
+        <!--this is the start of a row-->
+        <View
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".2"
+            android:orientation="vertical"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/swMandatoryInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/ten"
+                android:layout_weight=".3"
+                android:textColor="@color/right_drawer_text_color" />
+
+            <TextView
+                android:id="@+id/tvMandatory"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="center"
+                android:text="@string/idMandatory"
+                android:textColor="@color/right_drawer_text_color" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:id="@+id/ibtnbgColorError"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/five"
+                android:padding="@dimen/five"
+                android:gravity="center"
+                android:layout_weight=".4">
+                <com.literacyall.app.customui.CircularTextView
+                    android:id="@+id/tvBgColorError"
+                    android:layout_width="@dimen/fifty"
+                    android:layout_height="@dimen/fifty"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/BackgroundColor"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnAddImageError"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_image_insert" />
+
+            <ImageView
+                android:id="@+id/ivImageError"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".6"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_women" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnAddTextError"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_new_text" />
+
+            <TextView
+                android:id="@+id/tvError"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/AddText"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/ibtnDoneError"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_done" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/Done"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".2"
+            android:orientation="vertical"></View>
+
+        <!--  this is the end of mother height layout-->
+    </LinearLayout>
+
+
+</LinearLayout>

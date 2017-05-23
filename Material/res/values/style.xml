@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+	===============================================================
+						Material style
+	===============================================================
+    -->
+
+    <!-- Oval button -->
+    <style name="OvalButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">@dimen/dp_08</item>
+        <item name="android:layout_height">@dimen/dp_08</item>
+        <item name="android:layout_marginTop">@dimen/dp_04</item>
+        <item name="android:layout_marginBottom">@dimen/dp_04</item>
+        <item name="android:layout_marginLeft">@dimen/dp_04</item>
+        <item name="android:layout_marginRight">@dimen/dp_04</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="BlueOvalButton" parent="OvalButton">
+        <item name="android:background">@drawable/btn_blue_oval</item>
+    </style>
+
+    <style name="RedOvalButton" parent="OvalButton">
+        <item name="android:background">@drawable/btn_red_oval</item>
+    </style>
+
+    <style name="YellowOvalButton" parent="OvalButton">
+        <item name="android:background">@drawable/btn_yellow_oval</item>
+    </style>
+
+    <style name="GreenOvalButton" parent="OvalButton">
+        <item name="android:background">@drawable/btn_green_oval</item>
+    </style>
+    
+    <!-- VideoView -->
+    <style name="videoProgress" parent="@android:attr/progressBarStyleHorizontal">
+        <item name="android:thumb">@drawable/scrubber_circle</item>
+    </style>
+
+</resources>

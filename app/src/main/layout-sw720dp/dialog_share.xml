@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/four_hundred"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:layout_width="@dimen/five_hundred"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".7"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <GridView
+                android:id="@+id/gvShare"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnWidth="120dp"
+                android:gravity="center"
+                android:listSelector="#00000000"
+                android:numColumns="3"
+                android:paddingBottom="@dimen/eighteen"
+                android:paddingLeft="@dimen/thirty_five"
+                android:paddingRight="@dimen/eighteen"
+                android:paddingTop="@dimen/thirty_five"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp"
+                android:horizontalSpacing="10dp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:padding="@dimen/twenty"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/btnCancelPermission"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/five"
+                android:layout_weight=".2"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_cancel_grey"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="fill_parent"
+                android:layout_weight=".2" />
+
+            <ImageButton
+                android:id="@+id/ibtnEliminate"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/five"
+                android:layout_weight=".2"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_eliminate_grey"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="fill_parent"
+                android:layout_weight=".2" />
+
+            <ImageButton
+                android:id="@+id/btnOkPermission"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/five"
+                android:layout_weight=".2"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_sharing_grey"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

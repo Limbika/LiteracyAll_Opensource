@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/three_hundred"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:layout_width="@dimen/five_hundred"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".7"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.literacyall.app.customui.CustomTextView
+                android:id="@+id/tvPermission"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/five"
+                android:layout_weight="0.97"
+                android:backgroundTint="@color/transparent"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:text="Do you want to eliminate the selected Item?"
+                android:textColor="@color/black"
+                android:textSize="@dimen/twenty" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:padding="@dimen/ten"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/btnCancelPermission"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/five"
+                android:layout_weight=".25"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_cancel_grey"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="fill_parent"
+                android:layout_weight=".5" />
+
+            <ImageButton
+                android:id="@+id/btnOkPermission"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/five"
+                android:layout_weight=".25"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_confirm_grey"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

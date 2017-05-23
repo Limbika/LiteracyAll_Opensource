@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyLight"
+    tools:context="com.literacyall.app.activities.LauncherActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <LinearLayout
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight=".8"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_logo_large" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/zero"
+                    android:layout_weight=".2" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivBoy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_boy_normal" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight=".5" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".45" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/border" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".45"
+                    android:background="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".8"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <View
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".27" />
+
+                    <ImageView
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".45"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_table_alone" />
+
+                    <View
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".28" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".2" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/ibtnMain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="60dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_next" />
+
+    <ImageButton
+        android:id="@+id/ibtnInfoLauncher"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_info" />
+
+
+    <com.literacyall.app.customui.CustomButton
+        android:layout_width="@dimen/hundred_fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/Tutorial"
+        android:gravity="center"
+        android:background="?android:attr/selectableItemBackground"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/twenty"
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/hundred_eighty"
+        android:layout_marginLeft="@dimen/twenty_five" />
+
+
+    <ImageButton
+        android:id="@+id/ibtnBox1"
+        android:layout_width="@dimen/hundred"
+        android:layout_height="@dimen/hundred"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/eighty"
+        android:layout_marginLeft="@dimen/twenty_five"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/box_01" />
+
+
+    <ImageButton
+        android:id="@+id/ibtnBox3"
+        android:layout_width="@dimen/hundred"
+        android:layout_height="@dimen/hundred"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/eighty"
+        android:layout_marginRight="@dimen/twenty_five"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/box_03" />
+
+
+    <ImageButton
+        android:id="@+id/ibtnBox2"
+        android:layout_width="@dimen/hundred"
+        android:layout_height="@dimen/hundred"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/two_hundred"
+        android:layout_marginLeft="380dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/box_02" />
+
+
+    <com.literacyall.app.customui.CustomButton
+        android:layout_width="@dimen/hundred_fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/QuickGuide"
+        android:gravity="center"
+        android:background="?android:attr/selectableItemBackground"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/twenty"
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/hundred_fifty"
+        android:layout_marginLeft="430dp" />
+
+
+
+    <com.literacyall.app.customui.CustomButton
+        android:layout_width="@dimen/hundred_fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/Methodology"
+        android:gravity="center"
+        android:background="?android:attr/selectableItemBackground"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/twenty"
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/hundred_eighty"
+        android:layout_marginRight="@dimen/twenty_five"/>
+
+
+</RelativeLayout>

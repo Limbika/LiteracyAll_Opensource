@@ -1,0 +1,277 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+build/intermediates/dex-cache/cache.xml
+simple-crop-image-lib/build
+build/intermediates/dex-cache/cache.xml
+
+bin/
+gen/
+png/
+target/
+.settings/
+.classpath
+*.class
+*.log
+*.iml
+.DS_Store
+library inApp/build/generated/source/buildConfig/release/com/anjlab/android/iab/v3/BuildConfig.java
+library inApp/build/outputs/aar/library inApp-release.aar
+library inApp/build/intermediates/incremental/compileReleaseAidl/dependency.store
+library inApp/build/generated/source/aidl/release/com/android/vending/billing/IInAppBillingService.java
+library inApp/build/intermediates/bundles/release/classes.jar
+library inApp/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/intermediates/bundles/release/res/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/bundles/release/res/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/bundles/release/res/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/outputs/aar/Material-release.aar
+Material/build/outputs/aar/Material-debug.aar
+Material/build/intermediates/res/merged/androidTest/debug/values/values.xml
+Material/build/intermediates/res/merged/androidTest/debug/values-v11/values-v11.xml
+Material/build/intermediates/res/merged/androidTest/debug/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/manifests/aapt/release/AndroidManifest.xml
+Material/build/intermediates/manifests/aapt/debug/AndroidManifest.xml
+Material/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml
+Material/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v11/values-v11.xml
+Material/build/intermediates/incremental/packageReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+Material/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+Material/build/intermediates/incremental/packageDebugResources/merger.xml
+Material/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml
+Material/build/intermediates/incremental/packageDebugResources/merged.dir/values-v11/values-v11.xml
+Material/build/intermediates/incremental/packageDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+Material/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugShaders/merger.xml
+Material/build/intermediates/incremental/mergeDebugAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v11/values-v11.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties
+Material/build/intermediates/bundles/release/res/values/values.xml
+Material/build/intermediates/bundles/release/res/values-v11/values-v11.xml
+Material/build/intermediates/bundles/release/res/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/outputs/aar/Material-release.aar
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+Material/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/generated/source/buildConfig/release/com/limbika/material/BuildConfig.java
+Material/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+Material/build/intermediates/bundles/release/AndroidManifest.xml
+Material/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/outputs/aar/Material-release.aar
+Material/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+app/src/main/java/com/literacyall/app/adapter/ImagePickerAdapter.java
+Material/build/outputs/aar/Material-release.aar
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+Material/build/intermediates/incremental/packageDebugResources/merger.xml
+Material/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+Material/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+Material/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugShaders/merger.xml
+Material/build/intermediates/incremental/mergeDebugAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable.json
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/intermediates/incremental/packageDebugResources/merger.xml
+Material/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+Material/build/intermediates/incremental/mergeDebugShaders/merger.xml
+Material/build/intermediates/incremental/mergeDebugAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable.json
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+Material/build/outputs/aar/Material-release.aar
+Material/build/outputs/aar/Material-debug.aar
+Material/build/intermediates/res/merged/androidTest/debug/values/values.xml
+Material/build/intermediates/res/merged/androidTest/debug/values-v11/values-v11.xml
+Material/build/intermediates/res/merged/androidTest/debug/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/manifests/aapt/release/AndroidManifest.xml
+Material/build/intermediates/manifests/aapt/debug/AndroidManifest.xml
+Material/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml
+Material/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v11/values-v11.xml
+Material/build/intermediates/incremental/packageReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+Material/build/intermediates/incremental/packageDebugResources/merger.xml
+Material/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml
+Material/build/intermediates/incremental/packageDebugResources/merged.dir/values-v11/values-v11.xml
+Material/build/intermediates/incremental/packageDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+Material/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugShaders/merger.xml
+Material/build/intermediates/incremental/mergeDebugAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v11/values-v11.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties
+Material/build/intermediates/bundles/release/res/values/values.xml
+Material/build/intermediates/bundles/release/res/values-v11/values-v11.xml
+Material/build/intermediates/bundles/release/res/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/bundles/release/AndroidManifest.xml
+Material/build/intermediates/bundles/debug/res/values/values.xml
+Material/build/intermediates/bundles/debug/res/values-v11/values-v11.xml
+Material/build/intermediates/bundles/debug/res/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/bundles/debug/AndroidManifest.xml
+Material/build/intermediates/blame/res/androidTest/debug/single/layout.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable-nodpi-v4.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json
+Material/build/intermediates/blame/res/androidTest/debug/multi/values.json
+Material/build/intermediates/blame/res/androidTest/debug/multi/values-v11.json
+Material/build/intermediates/blame/res/androidTest/debug/multi/values-sw600dp-v13.json
+Material/build/generated/source/r/androidTest/debug/com/limbika/material/R.java
+Material/build/generated/source/buildConfig/release/com/limbika/material/BuildConfig.java
+Material/build/generated/source/buildConfig/debug/com/limbika/material/BuildConfig.java
+Material/build/generated/source/buildConfig/androidTest/debug/com/limbika/material/test/BuildConfig.java
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build.gradle
+Material/build/outputs/aar/Material-debug.aar
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+Material/build/intermediates/incremental/packageDebugResources/merger.xml
+Material/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+Material/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugShaders/merger.xml
+Material/build/intermediates/incremental/mergeDebugAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties
+Material/build/intermediates/bundles/debug/res/values/values.xml
+Material/build/intermediates/bundles/debug/res/values-v11/values-v11.xml
+Material/build/intermediates/bundles/debug/res/values-sw600dp-v13/values-sw600dp-v13.xml
+Material/build/intermediates/blame/res/androidTest/debug/single/layout.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable-nodpi-v4.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json
+Material/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json
+Material/build/intermediates/blame/res/androidTest/debug/multi/values.json
+Material/build/intermediates/blame/res/androidTest/debug/multi/values-sw600dp-v13.json
+Material/build/generated/source/r/androidTest/debug/com/limbika/material/R.java
+Material/build/generated/source/buildConfig/debug/com/limbika/material/BuildConfig.java
+Material/build/generated/source/buildConfig/androidTest/debug/com/limbika/material/test/BuildConfig.java
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+Material/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/intermediates/bundles/debug/AndroidManifest.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
+Material/build/intermediates/incremental/mergeDebugAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugShaders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+Material/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+Material/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+Material/build/intermediates/incremental/packageDebugResources/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/outputs/aar/Material-debug.aar
+Material/build/outputs/aar/Material-release.aar
+library inApp/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+library inApp/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+library inApp/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
+Material/build/intermediates/incremental/mergeDebugAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugShaders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseAssets/merger.xml
+Material/build/intermediates/incremental/mergeReleaseShaders/merger.xml
+Material/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+Material/build/intermediates/incremental/packageDebugResources/merger.xml
+Material/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties
+Material/build/intermediates/incremental/packageReleaseResources/merger.xml
+Material/build/outputs/aar/Material-debug.aar
+Material/build/outputs/aar/Material-release.aar
+library inApp/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+Material/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml
+Material/build/outputs/aar/Material-debug.aar
+Material/build/intermediates/incremental/packageDebugResources/merger.xml
+Material/build/intermediates/incremental/packageDebugResources/compile-file-map.properties
+Material/build/intermediates/incremental/mergeDebugShaders/merger.xml
+Material/build/intermediates/incremental/mergeDebugAssets/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml
+Material/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties

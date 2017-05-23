@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/five_hundred"
+    android:layout_height="@dimen/two_hundred"
+    android:paddingLeft="@dimen/twenty"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.literacyall.app.customui.CustomTextView
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/twenty"
+            android:layout_weight=".2"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:text="@string/AddSound"
+            android:textColor="@color/black" />
+
+
+        <com.literacyall.app.customui.CustomTextView
+            android:id="@+id/tvItemSound"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/twenty"
+            android:layout_weight=".6"
+            android:background="@color/white"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/ibtnItemSoundClose"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/ten"
+            android:layout_weight=".2"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_delete" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight="0.2" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_marginTop="@dimen/three"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.literacyall.app.customui.CustomTextView
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/twenty"
+            android:layout_weight=".2"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:text="@string/AutoPlay"
+            android:textColor="@color/black" />
+
+
+        <com.literacyall.app.customui.CustomTextView
+            android:id="@+id/tvDelaySoundInfo"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/twenty"
+            android:layout_weight=".6"
+            android:background="@color/white"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:textColor="@color/black" />
+
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/ten"
+            android:layout_weight=".2" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight="0.2" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_marginTop="@dimen/three"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.literacyall.app.customui.CustomTextView
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_weight=".15"
+            android:layout_marginRight="@dimen/ten"
+            android:gravity="center"
+            android:text="@string/Delay"
+            android:textColor="@color/black" />
+
+        <Switch
+            android:id="@+id/swAutoplayInfo"
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginRight="@dimen/ten"
+            android:layout_weight=".15"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="@dimen/zero"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/ten"
+            android:layout_weight=".7" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".2" />
+
+</LinearLayout>
+
+

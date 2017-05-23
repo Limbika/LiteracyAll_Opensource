@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".85"
+        android:orientation="vertical"
+        android:weightSum="1"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".15"
+        android:background="@drawable/entry_slide_background"
+        android:orientation="vertical"
+        android:weightSum=".8">
+
+        <!--this is the start of a row-->
+        <View
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".2"
+            android:orientation="vertical"></View>
+
+
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <ImageButton
+                android:id="@+id/ibtnFrontTopPosition"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_position_front_top" />
+
+
+            <!--this is the end of a row-->
+        </LinearLayout>
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:id="@+id/linear4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/ibtnBackTopPosition"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_position_back_top" />
+
+
+            <!--this is the end of a row-->
+        </LinearLayout>
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:id="@+id/linear5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/ibtnFrontStepPosition"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_position_front_step" />
+
+
+            <!--this is the end of a row-->
+        </LinearLayout>
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:id="@+id/linear6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/ibtnBackStepPosition"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_position_back_step" />
+
+
+            <!--this is the end of a row-->
+        </LinearLayout>
+        <!--this is the start of a row-->
+
+        <!--this is the start of a row-->
+
+        <!--this is the start of a row-->
+
+        <View
+            android:id="@+id/linear10"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".2"
+            android:orientation="vertical"></View>
+
+        <!--  this is the end of mother height layout-->
+    </LinearLayout>
+
+
+</LinearLayout>

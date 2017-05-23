@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".1">
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlOutSlide"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".7"
+        android:paddingRight="@dimen/sixty">
+
+
+        <LinearLayout
+            android:id="@+id/llTopSlideEntry"
+            android:layout_width="@dimen/two_hundred"
+            android:layout_height="@dimen/two_hundred_fifty"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/dialog_bg"
+            android:orientation="vertical"
+            android:weightSum="6">
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryTopMatch"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="@dimen/five"
+                android:text="@string/Match"
+                android:textSize="@dimen/font_fifteen" />
+
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryTopAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Answer"
+                android:textSize="@dimen/font_fifteen" />
+
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryTopWrite"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Write"
+                android:textSize="@dimen/font_fifteen" />
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryTopRead"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Read"
+                android:textSize="@dimen/font_fifteen" />
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryTopClassificate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Classificate"
+                android:textSize="@dimen/font_fifteen" />
+
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryTopSequence"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Sequence"
+                android:textSize="@dimen/font_fifteen" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llBottomSlideEntry"
+            android:layout_width="@dimen/two_hundred"
+            android:layout_height="@dimen/two_hundred_fifty"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/dialog_bg"
+            android:orientation="vertical"
+            android:weightSum="6">
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryBottomMatch"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Match"
+                android:textSize="@dimen/font_fifteen" />
+
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryBottomAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Answer"
+                android:textSize="@dimen/font_fifteen" />
+
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryBottomWrite"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Write"
+                android:textSize="@dimen/font_fifteen" />
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryBottomRead"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Read"
+                android:textSize="@dimen/font_fifteen" />
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryBottomClassificate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Classificate"
+                android:textSize="@dimen/font_fifteen" />
+
+            <com.literacyall.app.customui.CustomButton
+                android:id="@+id/btnEntryBottomSequence"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/Sequence"
+                android:textSize="@dimen/font_fifteen" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".2">
+
+    </LinearLayout>
+
+
+</LinearLayout>

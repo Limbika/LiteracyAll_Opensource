@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/blan_space"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fbtnShowLeftDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/twenty"
+        android:src="@drawable/ic_back"
+        app:backgroundTint="@color/editor_background"/>
+
+    <FrameLayout
+        android:id="@+id/flContentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/llBottomDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".8" />
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/IBHideSlide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_menu_botton_hide" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".2"
+                android:background="@drawable/entry_slide_background"
+                android:orientation="horizontal">
+
+                <HorizontalScrollView
+                    android:id="@+id/scrollView"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".7"
+                    android:fillViewport="false">
+
+                    <LinearLayout
+                        android:id="@+id/llBottomDrawerItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"></LinearLayout>
+                </HorizontalScrollView>
+
+                <!--  the right 4 buttons-->
+                <LinearLayout
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:orientation="horizontal"
+                    android:weightSum="6">
+                    <ImageButton
+                        android:id="@+id/ibtnBottomPreview"
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_eye" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnBottomCopyPaste"
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_copy_paste" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnBottomNew"
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_new" />
+                    <ImageButton
+                        android:id="@+id/ibtNewSameTaskMode"
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_new_super" />
+                    <ImageButton
+                        android:id="@+id/ibtnBottomSave"
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_save" />
+
+                    <ImageButton
+                        android:id="@+id/ibtnBottomDelete"
+                        android:layout_width="@dimen/zero"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/five"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_erase" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <include
+        android:id="@+id/incRightDrawerEditorForm"
+        layout="@layout/right_drawer_editor_form"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <include
+        android:id="@+id/incRightDrawerEditorAlign"
+        layout="@layout/right_drawer_editor_align"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <include
+        android:id="@+id/incRightDrawerEditorScreenAlign"
+        layout="@layout/right_drawer_editor_screen_align"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+    <include
+        android:id="@+id/incRightDrawerEditorInfo"
+        layout="@layout/right_drawer_editor_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <include
+        android:id="@+id/incRightDrawerEditorPosition"
+        layout="@layout/right_drawer_editor_position"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <include
+        android:id="@+id/incRightDrawerEditorEdit"
+        layout="@layout/right_drawer_editor_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <include
+        android:id="@+id/incRightDrawerEditorText"
+        layout="@layout/right_drawer_editor_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <include
+        android:id="@+id/incRightDrawerEditorError"
+        layout="@layout/right_drawer_editor_error"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <include
+        android:id="@+id/incWidgetArrangement"
+        layout="@layout/widget_arrangement"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <include
+        android:id="@+id/incLeftDrawerEditor"
+        layout="@layout/left_drawer_editor"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/llTopDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".15"
+            android:background="@drawable/entry_slide_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:orientation="horizontal">
+
+                <HorizontalScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".85"
+                    android:fillViewport="true"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:id="@+id/llTopDrawerItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".85" />
+    </LinearLayout>
+
+
+</RelativeLayout>

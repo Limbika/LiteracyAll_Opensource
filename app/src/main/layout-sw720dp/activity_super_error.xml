@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlError"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/ivError"
+        android:layout_width="@dimen/two_hundred_fifty"
+        android:layout_height="@dimen/two_hundred_fifty"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_women" />
+
+    <ImageView
+        android:layout_width="@dimen/two_hundred"
+        android:layout_height="@dimen/two_hundred"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="@dimen/two_hundred_fifty"
+        android:layout_marginBottom="@dimen/hundred_twenty"
+        android:src="@drawable/ic_error_corner" />
+
+    <TextView
+        android:id="@+id/tvErrorMessage"
+        android:layout_width="@dimen/five_hundred_fifty"
+        android:layout_height="@dimen/two_hundred_fifty"
+        android:background="@drawable/tv_bg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/font_twenty"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/two_hundred"
+        android:layout_marginLeft="@dimen/three_hundred_fifty" />
+
+
+</RelativeLayout>

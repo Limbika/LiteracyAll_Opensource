@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/two_hundred"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:layout_width="@dimen/five_hundred"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1.01"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".7"
+            android:weightSum="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".3" />
+
+            <EditText
+                android:id="@+id/edtTextError"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight="0.4"
+                android:gravity="left"
+                android:textSize="@dimen/twenty"
+                android:hint="@string/addText"
+                android:backgroundTint="@color/transparent"
+                android:padding="@dimen/five"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".3" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:background="@color/black"
+            android:layout_weight=".01" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:orientation="horizontal"
+            android:weightSum="1.005">
+
+            <Button
+                android:id="@+id/btnCancelError"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/five"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:textSize="@dimen/twenty"
+                android:text="Cancel"
+                android:inputType="textMultiLine"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="fill_parent"
+                android:background="@color/black"
+                android:layout_weight=".005" />
+
+            <Button
+                android:id="@+id/btnOkError"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/five"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:textSize="@dimen/twenty"
+                android:text="@string/ok"
+                android:inputType="textMultiLine"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

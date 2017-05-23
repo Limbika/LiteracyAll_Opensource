@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llWholeLayOut"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.literacyall.app.activities.TaskPackActivity">
+
+    <LinearLayout
+        android:id="@+id/linearUpTaskpackContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".02" />
+
+        <ImageButton
+            android:id="@+id/ibtnBack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_exit_main" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".02" />
+
+        <ImageButton
+            android:id="@+id/ibtnErase"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_eliminate_grey" />
+
+        <!--<ImageButton
+            android:id="@+id/ibtnCart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_cart_grey"
+            android:visibility="gone" />-->
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".02" />
+
+        <com.literacyall.app.customui.CircularCartView
+            android:id="@+id/ctvCart"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/fifty"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_twenty" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".02" />
+
+        <ImageButton
+            android:id="@+id/ibtnShare"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_share" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".02" />
+
+
+        <ImageButton
+            android:id="@+id/ibtnPackEdit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_edit_pack" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".15" />
+
+        <!--<SearchView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_weight=".6"
+            android:background="@color/white"
+            android:textColor="@color/greyDark"></SearchView>-->
+
+        <EditText
+            android:id="@+id/edtSearchTaskPack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:hint="Search"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/border_bottom" />
+
+        <ImageButton
+            android:id="@+id/ibtnSearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            android:src="@drawable/ic_search" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25" />
+
+        <ImageButton
+            android:id="@+id/ibtnClone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_clone" />
+
+        <ImageButton
+            android:id="@+id/ibtnImport"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_import" />
+
+        <ImageButton
+            android:id="@+id/ibtnNewPack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_new" />
+
+        <ImageButton
+            android:id="@+id/ibtnEdit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_edit" />
+
+        <ImageButton
+            android:id="@+id/ibtnPlay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_play" />
+    </LinearLayout>
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".05" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:background="@color/greyLight"
+        android:paddingBottom="20dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:paddingTop="20dp">
+
+        <com.literacyall.app.utilities.BookCaseView
+            android:id="@+id/gvTaskPackCase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/ten"
+            android:listSelector="#00000000"
+            android:numColumns="5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <com.literacyall.app.customui.CustomButton
+            android:id="@+id/btnAll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="All"
+            android:textColor="@color/right_drawer_text_color" />
+
+        <com.literacyall.app.customui.CustomButton
+            android:id="@+id/btnAnswer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="Answer"
+            android:textColor="@color/right_drawer_text_color" />
+
+        <com.literacyall.app.customui.CustomButton
+            android:id="@+id/btnClassificate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="Classificate"
+            android:textColor="@color/right_drawer_text_color" />
+
+        <com.literacyall.app.customui.CustomButton
+            android:id="@+id/btnMatch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="Match"
+            android:textColor="@color/right_drawer_text_color" />
+
+        <com.literacyall.app.customui.CustomButton
+            android:id="@+id/btnRead"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="Read"
+            android:textColor="@color/right_drawer_text_color" />
+
+        <com.literacyall.app.customui.CustomButton
+            android:id="@+id/btnWrite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="Write"
+            android:textColor="@color/right_drawer_text_color" />
+
+        <com.literacyall.app.customui.CustomButton
+            android:id="@+id/btnSequence"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="Sequence"
+            android:textColor="@color/right_drawer_text_color" />
+
+    </LinearLayout>
+
+</LinearLayout>

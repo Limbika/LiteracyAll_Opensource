@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#039be5</color>
+    <color name="blue_pressed">#0288d1</color>
+    <color name="blue_selected">#03a9f4</color>
+    <color name="disabled">#808080</color>
+    <color name="gray_aluminium">#eeeeee</color>
+    <color name="gray_lead">#B5B6B5</color>
+    <color name="green">#43a047</color>
+    <color name="green_pressed">#388e3c</color>
+    <color name="green_selected">#4caf50</color>
+    <color name="neutral">#757575</color>
+    <color name="neutral_pressed">#616161</color>
+    <color name="neutral_selected">#9E9E9E</color>
+    <color name="red">#e53935</color>
+    <color name="red_pressed">#d32f2f</color>
+    <color name="red_selected">#f44336</color>
+    <color name="translucent">#88000000</color>
+    <color name="translucent_white">#32FFFFFF</color>
+    <color name="white">#f5f5f5</color>
+    <color name="white_pressed">#e0e0e0</color>
+    <color name="white_selected">#bdbdbd</color>
+    <color name="yellow">#fdd835</color>
+    <color name="yellow_pressed">#fbc02d</color>
+    <color name="yellow_selected">#ffeb3b</color>
+    <declare-styleable name="AccesibleStyledSeekBar"><attr format="integer" name="left"/><attr format="integer" name="rigth"/></declare-styleable>
+    <declare-styleable name="ToggleImageButton"><attr name="android:checked"/></declare-styleable>
+    <declare-styleable name="lockable"><attr format="boolean" name="state_locked"/></declare-styleable>
+    <dimen name="dp_00">1dp</dimen>
+    <dimen name="dp_01">2dp</dimen>
+    <dimen name="dp_02">4dp</dimen>
+    <dimen name="dp_03">8dp</dimen>
+    <dimen name="dp_04">16dp</dimen>
+    <dimen name="dp_05">24dp</dimen>
+    <dimen name="dp_06">32dp</dimen>
+    <dimen name="dp_07">48dp</dimen>
+    <dimen name="dp_08">64dp</dimen>
+    <dimen name="dp_09">96dp</dimen>
+    <dimen name="dp_10">128dp</dimen>
+    <dimen name="dp_11">196dp</dimen>
+    <dimen name="dp_12">330dp</dimen>
+    <dimen name="sp_01">12sp</dimen>
+    <dimen name="sp_02">18sp</dimen>
+    <dimen name="sp_03">24sp</dimen>
+    <dimen name="sp_04">30sp</dimen>
+    <dimen name="sp_05">42sp</dimen>
+    <style name="AbsListView" parent="@android:style/Widget.AbsListView">
+        <item name="android:listSelector">@null</item>
+        <item name="android:divider">@android:color/transparent</item>
+    </style>
+    <style name="BlueOvalButton" parent="OvalButton">
+        <item name="android:background">@drawable/btn_blue_oval</item>
+    </style>
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/bg_theme_edittext</item>
+    </style>
+    <style name="GreenOvalButton" parent="OvalButton">
+        <item name="android:background">@drawable/btn_green_oval</item>
+    </style>
+    <style name="MaterialDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:radioButtonStyle">@style/RadioButton</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:scrollbarThumbVertical">@drawable/bg_neutral_round_normal</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/bg_neutral_round_normal</item>
+        <item name="android:listViewStyle">@style/AbsListView</item>
+    </style>
+    <style name="MaterialTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:radioButtonStyle">@style/RadioButton</item>
+        <item name="android:scrollbarThumbVertical">@drawable/bg_neutral_round_normal</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/bg_neutral_round_normal</item> 
+        <item name="android:scrollbarSize">@dimen/dp_01</item>
+        <item name="android:progressDrawable">@drawable/progress_color</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:checkboxStyle">@style/RadioButton</item>
+        <item name="android:listViewStyle">@style/AbsListView</item>
+    </style>
+    <style name="OvalButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">@dimen/dp_08</item>
+        <item name="android:layout_height">@dimen/dp_08</item>
+        <item name="android:layout_marginTop">@dimen/dp_04</item>
+        <item name="android:layout_marginBottom">@dimen/dp_04</item>
+        <item name="android:layout_marginLeft">@dimen/dp_04</item>
+        <item name="android:layout_marginRight">@dimen/dp_04</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/btn_radio</item>
+    </style>
+    <style name="RedOvalButton" parent="OvalButton">
+        <item name="android:background">@drawable/btn_red_oval</item>
+    </style>
+    <style name="Theme.Dialog.NoTitle" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/translucent</item>
+    </style>
+    <style name="YellowOvalButton" parent="OvalButton">
+        <item name="android:background">@drawable/btn_yellow_oval</item>
+    </style>
+    <style name="videoProgress" parent="@android:attr/progressBarStyleHorizontal">
+        <item name="android:thumb">@drawable/scrubber_circle</item>
+    </style>
+</resources>

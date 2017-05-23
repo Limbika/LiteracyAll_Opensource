@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+	<color name="translucent">#88000000</color>
+	<color name="translucent_white">#32FFFFFF</color>    
+    <color name="gray_aluminium">#eeeeee</color>
+    <color name="gray_lead">#B5B6B5</color>
+    <color name="disabled">#808080</color>
+    
+    <!-- Neutral -->
+    <color name="neutral">#757575</color>
+    <color name="neutral_selected">#9E9E9E</color>
+    <color name="neutral_pressed">#616161</color>
+
+    <!-- White -->
+    <color name="white">#f5f5f5</color>
+    <color name="white_selected">#bdbdbd</color>
+    <color name="white_pressed">#e0e0e0</color>
+
+    <!-- Blue -->
+    <color name="blue">#039be5</color>
+    <color name="blue_selected">#03a9f4</color>
+    <color name="blue_pressed">#0288d1</color>
+
+    <!-- Red -->
+    <color name="red">#e53935</color>
+    <color name="red_selected">#f44336</color>
+    <color name="red_pressed">#d32f2f</color>
+
+    <!-- Green -->
+    <color name="green">#43a047</color>
+    <color name="green_selected">#4caf50</color>
+    <color name="green_pressed">#388e3c</color>
+
+    <!-- Yellow -->
+    <color name="yellow">#fdd835</color>
+    <color name="yellow_selected">#ffeb3b</color>
+    <color name="yellow_pressed">#fbc02d</color>
+    
+</resources>

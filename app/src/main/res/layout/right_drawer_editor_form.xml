@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".75"
+        android:orientation="vertical"
+        android:weightSum="1"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".25"
+        android:background="@drawable/entry_slide_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum=".9">
+
+        <!--&lt;!&ndash;this is the start of a row&ndash;&gt;
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/ibtnSendToBackForm"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_shadow_on" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="Send to Back"
+                android:textColor="@color/right_drawer_text_color" />
+            &lt;!&ndash;this is the end of a row&ndash;&gt;
+        </LinearLayout>
+-->
+
+
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/ibtnbgColorForm"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_shadow_on"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:gravity="center"
+                android:padding="@dimen/five">
+
+                <com.literacyall.app.customui.CircularTextView
+                    android:id="@+id/tvBgColorForm"
+                    android:layout_width="@dimen/fifty"
+                    android:layout_height="@dimen/fifty"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/BackgroundColor"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+        <!--  &lt;!&ndash;this is the start of a row&ndash;&gt;
+          <LinearLayout
+              android:id="@+id/linear3"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/zero"
+              android:layout_weight=".1"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:visibility="gone">
+
+              <Switch
+                  android:id="@+id/swBorderForm"
+                  android:layout_width="@dimen/zero"
+                  android:layout_height="wrap_content"
+                  android:layout_weight=".3"
+                  android:gravity="center"
+                  android:textColor="@color/right_drawer_text_color" />
+
+              <View
+                  android:layout_width="@dimen/zero"
+                  android:layout_height="wrap_content"
+                  android:layout_weight=".1"
+                  android:orientation="vertical"></View>
+
+              <TextView
+                  android:layout_width="@dimen/zero"
+                  android:layout_height="wrap_content"
+                  android:layout_weight=".6"
+                  android:gravity="left"
+                  android:text="@string/Border"
+                  android:textColor="@color/right_drawer_text_color" />
+              &lt;!&ndash;this is the end of a row&ndash;&gt;
+          </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <!-- <ImageButton
+                 android:id="@+id/ibtnBorderColorForm"
+                 android:layout_width="@dimen/zero"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="@dimen/five"
+                 android:layout_weight=".4"
+                 android:background="?android:attr/selectableItemBackground"
+                 android:scaleType="fitCenter"
+                 android:src="@drawable/ic_shadow_on"
+                 android:visibility="gone" />-->
+
+            <LinearLayout
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:gravity="center"
+                android:padding="@dimen/five">
+
+                <com.literacyall.app.customui.CircularTextView
+                    android:id="@+id/tvBorderColorForm"
+                    android:layout_width="@dimen/fifty"
+                    android:layout_height="@dimen/fifty"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/BorderColor"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <!--this is the start of a row-->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnBorderpxForm"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_border_px" />
+
+            <TextView
+                android:id="@+id/tvBorderpxForm"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="left"
+                android:textColor="@color/right_drawer_text_color" />
+
+            <TextView
+
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:gravity="left"
+                android:text="@string/BorderPx"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+        <!-- &lt;!&ndash;this is the start of a row&ndash;&gt;
+         <LinearLayout
+             android:id="@+id/linear7"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/zero"
+             android:layout_weight=".1"
+             android:gravity="center"
+             android:orientation="horizontal"
+             android:visibility="gone"
+             android:weightSum="1">
+
+             <Switch
+                 android:id="@+id/swBorderShadawForm"
+                 android:layout_width="@dimen/zero"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".3"
+                 android:gravity="center"
+                 android:textColor="@color/right_drawer_text_color" />
+
+             <View
+                 android:layout_width="@dimen/zero"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".1"
+                 android:orientation="vertical"></View>
+
+             <TextView
+                 android:layout_width="@dimen/zero"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".6"
+                 android:gravity="left"
+                 android:text="@string/BorderShadow"
+                 android:textColor="@color/right_drawer_text_color" />
+
+
+             &lt;!&ndash;this is the end of a row&ndash;&gt;
+         </LinearLayout>-->
+        <!--this is the start of a row-->
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/ibtnShadowpxForm"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_shadow_on" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/ShadowPx"
+                android:textColor="@color/right_drawer_text_color" />
+            &lt;!&ndash;this is the end of a row&ndash;&gt;
+        </LinearLayout>-->
+
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Switch
+                android:id="@+id/swRoundCornerForm"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:textColor="@color/right_drawer_text_color" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical"></View>
+            <!--           <ImageButton
+                           android:id="@+id/ibtnCornerRoundForm"
+                           android:layout_width="@dimen/zero"
+                           android:layout_height="wrap_content"
+                           android:layout_marginRight="@dimen/five"
+                           android:layout_weight=".4"
+                           android:visibility="gone"
+                           android:background="?android:attr/selectableItemBackground"
+                           android:scaleType="fitCenter"
+                           android:src="@drawable/ic_border_round" />-->
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/CornerRounded"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/ibtnDoneForm"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_done" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/Done"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+        <!--  this is the end of mother height layout-->
+    </LinearLayout>
+
+
+</LinearLayout>

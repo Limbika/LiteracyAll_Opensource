@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/eight_hundred"
+    android:layout_height="@dimen/five_hundred"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvCondition"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_centerHorizontal="true"
+        android:layout_weight=".1"
+        android:gravity="center_horizontal"
+        android:text="@string/termsofuse"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_twenty_five" />
+
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_centerHorizontal="true"
+        android:layout_weight=".75"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:text="@string/condition"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/twenty"
+        android:textSize="@dimen/font_twenty" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight=".15"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:textSize="@dimen/font_twenty_five"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:text="@string/cancel" />
+
+
+        <View
+            android:id="@+id/btnYes"
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:textSize="@dimen/font_twenty_five"
+            android:background="@android:color/transparent"
+            android:textColor="@color/black"
+            android:text="@string/accept" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

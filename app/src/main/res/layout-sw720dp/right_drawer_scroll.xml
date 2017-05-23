@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".70"
+        android:orientation="vertical"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".30"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="@dimen/two"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="@dimen/two"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="@dimen/two"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:padding="@dimen/two"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear7"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear9"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear10"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear11"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear12"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear13"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear14"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear15"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear16"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+            <LinearLayout
+                android:id="@+id/linear8"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/two"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:text="bt" />
+                <!--this is the end of a row-->
+            </LinearLayout>
+            <!--this is the start of a row-->
+
+            <!--  this is the end of mother height layout-->
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

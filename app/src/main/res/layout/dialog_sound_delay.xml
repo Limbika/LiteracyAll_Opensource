@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/two_hundred_fifty"
+    android:layout_height="@dimen/three_hundred_fifty"
+    android:background="@drawable/dialog_bg"
+    android:layout_margin="@dimen/ten">
+
+    <ListView
+        android:id="@+id/lvSoundDelay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/fifteen">
+    </ListView>
+
+</RelativeLayout>

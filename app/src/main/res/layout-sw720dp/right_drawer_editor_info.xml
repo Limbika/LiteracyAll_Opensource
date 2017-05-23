@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llRightDrawerEditorInfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".75"
+        android:orientation="vertical"
+        android:weightSum="1"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight=".25"
+        android:background="@drawable/entry_slide_background"
+        android:orientation="vertical"
+        android:weightSum="1.1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".05"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/lnGeneralCorrect"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Switch
+                android:id="@+id/swCorrectInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                android:textColor="@color/right_drawer_text_color"  />
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".15"
+                android:orientation="vertical">
+            </View>
+            <TextView
+                android:id="@+id/tvReadable"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/Correct"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:id="@+id/lnGeneralInCorrect"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Switch
+                android:id="@+id/swIncorrectInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:textColor="@color/right_drawer_text_color"  />
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+            </View>
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/InCorrect"
+                android:textColor="@color/right_drawer_text_color"  />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:id="@+id/lnDrag"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnDragDropInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_info_drag_drop" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/DragDrop"
+                android:textColor="@color/right_drawer_text_color"  />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnAssistive"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnLinkdToInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_assistive_mode" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/LinkedTo"
+                android:textColor="@color/right_drawer_text_color"  />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnTarget"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Switch
+                android:id="@+id/swTargetInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:textColor="@color/right_drawer_text_color"  />
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+            </View>
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/Target"
+                android:textColor="@color/right_drawer_text_color"  />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnChild"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Switch
+                android:id="@+id/swChildInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:textColor="@color/right_drawer_text_color"  />
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+            </View>
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/Child"
+                android:textColor="@color/right_drawer_text_color"  />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Switch
+                android:id="@+id/swShowedByInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:textColor="@color/right_drawer_text_color"  />
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+            </View>
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/ShowedBy"
+                android:textColor="@color/right_drawer_text_color"  />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Switch
+                android:id="@+id/swHiddenByInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:textColor="@color/right_drawer_text_color"  />
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+            </View>
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/HiddenBy"
+                android:textColor="@color/right_drawer_text_color"  />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Switch
+                android:id="@+id/swAutoplayInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="left"
+                android:textColor="@color/right_drawer_text_color"  />
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical">
+            </View>
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/AutoPlay"
+                android:textColor="@color/right_drawer_text_color"  />
+
+
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnDelaySoundInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_new_sound" />
+
+            <TextView
+                android:id="@+id/tvDelaySoundInfo"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/Delay"
+                android:textColor="@color/right_drawer_text_color"  />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".05"
+            android:orientation="vertical"/>
+
+         </LinearLayout>
+
+
+</LinearLayout>

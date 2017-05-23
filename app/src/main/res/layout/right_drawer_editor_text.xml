@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".75"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:weightSum="1"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".25"
+        android:background="@drawable/entry_slide_background"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <!--this is the start of a row-->
+        <View
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".25"
+            android:orientation="vertical"></View>
+
+        <!--this is the start of a row-->
+        <!-- <LinearLayout
+             android:id="@+id/linear2"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/zero"
+             android:layout_weight=".1"
+             android:gravity="center"
+             android:orientation="horizontal"
+             android:weightSum="1">
+
+             <Switch
+                 android:id="@+id/swCloseAppText"
+                 android:layout_width="@dimen/zero"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".3"
+                 android:gravity="left"
+                 android:textColor="@color/right_drawer_text_color" />
+             <View
+                 android:layout_width="@dimen/zero"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".1"
+                 android:orientation="vertical"></View>
+
+             <TextView
+                 android:layout_width="@dimen/zero"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".6"
+                 android:gravity="left"
+                 android:text="@string/CloseApp"
+                 android:textColor="@color/right_drawer_text_color" />
+
+
+         </LinearLayout>-->
+
+        <!--this is the start of a row-->
+        <!-- <LinearLayout
+             android:id="@+id/linear3"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/zero"
+             android:layout_weight=".1"
+             android:gravity="center"
+             android:orientation="horizontal">
+
+             <ImageButton
+                 android:id="@+id/ibtnNavigatesText"
+                 android:layout_width="@dimen/zero"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="@dimen/five"
+                 android:layout_weight=".4"
+                 android:background="?android:attr/selectableItemBackground"
+                 android:scaleType="fitCenter"
+                 android:src="@drawable/ic_navigate_to" />
+
+             <TextView
+                 android:layout_width="@dimen/zero"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".6"
+                 android:gravity="left"
+                 android:text="@string/NavigatesTo"
+                 android:textColor="@color/right_drawer_text_color" />
+             &lt;!&ndash;this is the end of a row&ndash;&gt;
+         </LinearLayout>-->
+        <!--this is the start of a row-->
+        <!--<LinearLayout
+            android:id="@+id/linear4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnOpenAppText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_open_app" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/OpenApp"
+                android:textColor="@color/right_drawer_text_color" />
+            &lt;!&ndash;this is the end of a row&ndash;&gt;
+        </LinearLayout>-->
+
+        <!--this is the start of a row-->
+        <!--<LinearLayout
+            android:id="@+id/linear5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvURLText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five"
+                android:layout_weight=".4"
+                android:gravity="center"
+                android:text="@string/URL"
+                android:textColor="@color/right_drawer_text_color" />
+
+            <EditText
+                android:id="@+id/edtURLText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_border_shape"
+                android:layout_weight=".5"
+                android:textAlignment="center"
+                android:textColor="@color/right_drawer_text_color" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"/>
+
+
+            &lt;!&ndash;this is the end of a row&ndash;&gt;
+        </LinearLayout>-->
+
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:id="@+id/linear6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".15"
+                android:orientation="vertical"></View>
+
+            <ImageButton
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".2"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_text_a_small" />
+
+            <SeekBar
+                android:id="@+id/seekBarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".35"
+                android:max="100" />
+
+
+            <ImageButton
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".2"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_text_a_capital" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical"></View>
+
+
+        </LinearLayout>
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:id="@+id/linear7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical"></View>
+
+            <ImageButton
+                android:id="@+id/ibtnAlignLeftText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_text_align_left" />
+
+
+            <ImageButton
+                android:id="@+id/ibtnAlignCenterText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_text_align_center" />
+
+            <ImageButton
+                android:id="@+id/ibtnAlignAllText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_text_align_all" />
+
+            <ImageButton
+                android:id="@+id/ibtnAlignRightText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_text_align_right" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical"></View>
+
+        </LinearLayout>
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:id="@+id/linear8"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/ibtnFontText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_font" />
+
+            <TextView
+                android:id="@+id/tvFontText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".45"
+                android:textColor="@color/right_drawer_text_color" >
+
+            </TextView>
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".15"
+                android:orientation="vertical"></View>
+
+
+        </LinearLayout>
+
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:id="@+id/linear9"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnShadowText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/five"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:gravity="center"
+                android:padding="@dimen/five">
+
+                <com.literacyall.app.customui.CircularTextView
+                    android:id="@+id/tvShadowText"
+                    android:layout_width="@dimen/fifty"
+                    android:layout_height="@dimen/fifty"
+                    android:gravity="center" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/FontColor"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_new_text" />
+
+            <ScrollView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tvText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:textColor="@color/right_drawer_text_color"
+                        android:textSize="@dimen/font_twenty" />
+                </LinearLayout>
+            </ScrollView>
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1" />
+
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/ibtnDoneText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_done" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/Done"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <!--<EditText
+            android:id="@+id/edtText"
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border_shape"
+            android:layout_weight=".5"
+            android:visibility="invisible"
+            android:textAlignment="center"
+            android:imeActionLabel="Done"
+            android:imeOptions="actionDone"
+            android:textColor="@color/right_drawer_text_color" />-->
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".15"
+            android:orientation="vertical"></View>
+
+        <!--  this is the end of mother height layout-->
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">LiterAllCy</string>
+    <string name="addTest">Ajouter du Texte</string>
+    <string name="navigation_drawer_open">Ouvrir le Tableau de navigation</string>
+    <string name="navigation_drawer_close">Fermer le Tableau de navigation</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="image_folder_path">/Android/Data/ImageStorage</string>
+    <string name="Correct">Correct</string>
+    <string name="CorrectAnswer">Bonne réponse</string>
+    <string name="Classificate">Classer</string>
+    <string name="Match">Relier</string>
+    <string name="Read">Lire</string>
+    <string name="Write">Ecrire</string>
+    <string name="Sequence">Séquence</string>
+    <string name="Answer">Réponse</string>
+    <string name="All">Tout</string>
+
+    <string name="Tutorial">Tutoriels</string>
+    <string name="QuickGuide">Guide rapide</string>
+    <string name="Methodology">Méthodologie</string>
+    <string name="tryAgain">Essayer à nouveau</string>
+    <string name="DoneRead">Fait:</string>
+    <string name="savetext">Sauvegarde du texte:</string>
+    <string name="selectForEdit">Sélectionnez un pack à modifier</string>
+    <string name="Nothinghere">Il n\'y a rien ici</string>
+    <string name="Search">Recherche</string>
+
+
+    <string name="InCorrect">Incorrect</string>
+    <string name="DragDrop">Glisser-déposer</string>
+    <string name="HiddenBy">Caché depuis</string>
+    <string name="ShowedBy">Montré depuis</string>
+    <string name="Target">Destination</string>
+    <string name="Child">Enfant</string>
+    <string name="CloseApp"> Fermer l\'Application </string>
+    <string name="Done">Effectué</string>
+    <string name="TakeImage">Image </string>
+    <string name="AddText">Texte</string>
+    <string name="ReadText">Lire le texte</string>
+    <string name="WriteText">Ecrire le texte</string>
+    <string name="NavigatesTo">Naviguer vers</string>
+    <string name="LinkedTo">Relié à</string>
+    <string name="OpenApp">Ouvir l\'application</string>
+    <string name="InsertVideo">Insérer une Vidéo</string>
+    <string name="InsertAudio">Insérer un Son</string>
+    <string name="InsertImage">Insérer une Imga</string>
+    <string name="AutoPlay">Lecture automatique</string>
+    <string name="Delay">Délai</string>
+    <string name="Anim">Animation</string>
+    <string name="Sound">Son</string>
+    <string name="AddSound">Ajouter un Son</string>
+    <string name="Font">Police</string>
+    <string name="FontColor">Couleur de l\'écriture</string>
+    <string name="Text">Texte</string>
+    <string name="TaskPackName">Nom du Pack de Tâches</string>
+    <string name="TaskLevel">Niveau de la Tâche</string>
+    <string name="TaskId">Identifiant de la Tâche</string>
+    <string name="FullScreen">Plein écran</string>
+    <string name="URL">URL</string>
+    <string name="AddPixel">Ajouter un Pixel</string>
+    <string name="Pixel">Pixel</string>
+    <string name="inputPixel">Saisir un nombre entre 1 et 100</string>
+    <string name="AddURL">URL</string>
+    <string name="BackgroundColor"> Couleur du Fond </string>
+    <string name="Border">Bordure</string>
+    <string name="BorderColor">Couleur de la bordure</string>
+    <string name="BorderPx">Pixel</string>
+    <string name="BorderShadow">Ombre de la bordure</string>
+    <string name="ShadowPx">Ombre en pixels</string>
+    <string name="CornerRounded">Coin arrondi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bonjour fragment blanc</string>
+    <string name="title_activity_player">Activité du joueur</string>
+    <string name="dummy_button">Bouton factice</string>
+    <string name="dummy_content">BOUTON FACTICE</string>
+    <string name="title_activity_fullscreen">Activité en Plein Ecran</string>
+    <string name="Feedback">Feedback</string>
+    <string name="positive">Positif</string>
+    <string name="negative">Négatif</string>
+    <string name="ok">OK</string>
+    <string name="BackPermission">Voulez-vous revenir en arrière ?</string>
+    <string name="savePermission">Voulez-vous sauvegarder avant de quitter ?</string>
+    <string name="SorryText">Désolé ! Une erreur s\'est produite.</string>
+    <string name="btnText">Contactez-nous pour nous signaler l\'erreur</string>
+    <string name="addText">Ajouter du texte</string>
+    <string name="copyTask">Voulez-vous dupliquer ce slide ?.</string>
+    <string name="newTask">Voulez-vous sauvegarder avant de créer</string>
+    <string name="DropTarget">Sélectionnez un élément à déposer dans ce dossier</string>
+    <string name="CalculateDrag">Calcul du glissement</string>
+    <string name="addItem">Veuillez d\'abord sélectionner un élément</string>
+    <string name="SequenceText">Cliquez sur la vue pour commencer à créer la séquence</string>
+    <string name="SequenceTextBelow">La séquence actuellement sélectionnée est</string>
+
+
+    <string name="Erasmus">LiterALLcy (Application d\'apprentissage de la lecture et de l\'écriture pour les personnes en difficultés ou en situation de handicap) est un projet financé par ERASMUS+ qui a commencé en 2014 entre 4 partenaires :  Limbika (Espagne), ARPEI (France), LEUS (Lituanie) et
+Eleka (Espagne). Le principal objectif du projet est de développer une application accessible, adaptée et open source pour l\'apprentissage de la lecture et de l\'écriture. L\'application intégrera une méthodologie d\'enseignement et la mise en œuvre a visé à faciliter l\'incorporation de TIC dans l\'enseignement courant pour les personnes ayant des besoins spécifiques dans l\'Union européenne.</string>
+
+    <string name="itemSelectedCurrentDropTarget">Cet élément est sélectionné pour la cible de destination actuelle</string>
+    <string name="allignmentTypeSelectFirst">Veuillez d\'abord sélectionner le type d\'alignement !</string>
+    <string name="dropTargetItemCannotSelect">Vous ne pouvez pas sélectionner un élément déposé dans le dossier de destination !</string>
+    <string name="cannotSelectSameItem">Vous ne pouvez pas sélectionner le même élément à renvoyer !</string>
+    <string name="alreadyInbackSelectedItem">Cet élément est déjà en arrière-plan de l\'élément sélectionné !</string>
+    <string name="sameItem">Vous ne pouvez pas sélectionner cet élément !</string>
+    <string name="alreadyInFrontSelectedItem">Cet élément est déjà en face de l\'élément sélectionné !</string>
+    <string name="TextLeftAlign">Alignement gauche du texte sélectionné</string>
+    <string name="TextRighttAlign">Alignement droit du Texte sélectionné</string>
+    <string name="TextCenterAlign">Centrage du Texte sélectionné</string>
+    <string name="TextAllAlign">Sélection de tout le Texte pour alignement</string>
+    <string name="errorFeedback">Le feedback de l\'erreur a été envoyé avec succès !</string>
+    <string name="emptyErrorFeedback">Veuillez ajouter du texte, une image ou une couleur de fond</string>
+    <string name="emptyErrorMsg">ERREUR</string>
+    <string name="done">EFFECTUE</string>
+    <string name="sharePreparing">Veuillez patienter, nous préparons le partage...</string>
+    <string name="cancel">Annuler</string>
+    <string name="subscribe">S\'inscrire</string>
+    <string name="subscribeBuy">S\'inscrire et Acheter</string>
+    <string name="buy">Achat</string>
+    <string name="daysLeft"> Jours restants</string>
+    <string name="itemPurchased"> Contenu acheté</string>
+    <string name="serviceUnavailable">La facturation d\'achats In-app est indisponible, veuillez mettre à jour le Google PlayStore.</string>
+    <string name="itemNotPurchased">Désolé ! L\'élement ne peut être acheté</string>
+    <string name="emailText">Je veux souscrire à la newsletter.</string>
+    <string name="emailSubject"> Sujet </string>
+    <string name="dropTargetAlready">La vue est déjà une cible et ne peut pas être un enfant.</string>
+    <string name="mindAppTaskPack"> Pack de Tâches de l\'application </string>
+    <string name="shareFile">Partager le Fichier</string>
+    <string name="selectedTask">Tâches sélectionnées</string>
+    <string name="oneTaskPackSelected">Un Pack de Tâches sélectionné</string>
+    <string name="sharingTaskPack">Partage de Pack de Tâches</string>
+    <string name="task">Tâches</string>
+    <string name="alreadyThisPosition">Vous êtes déjà à cet endroit!</string>
+    <string name="deleteMsg"> Effacer l\'entrée</string>
+    <string name="deleteAlertMsg"> Etes-vous sûr de vouloir supprimer cette tâche?</string>
+    <string name="longTapDeleteMsg"> Appui long sur la tâche pour la supprimer</string>
+    <string name="SwitcherText">Vous n\'avez pas la permission de faire cela.</string>
+
+    <string name="emptyTextField">Le Champ du Texte est vide!</string>
+    <string name="notSupportedFile">fichier non compatible</string>
+    <string name="targetDeleted">Destination supprimée</string>
+    <string name="childDeleted">Enfant supprimé</string>
+    <string name="TapItemToSetShow">Cliquez sur un élément pour configurer l\'affichage par cela</string>
+    <string name="SelectItemToHide">Sélectionner un élément à masquer</string>
+    <string name="NeedItemAdded">L\'ajout d\'au moins 2 éléments est requis</string>
+    <string name="TapItemToSetHide">Cliquez sur un élément pour configurer le masquage par cela</string>
+    <string name="jsonImport">Veuillez patienter, préparation pour l\'import des tâches...</string>
+    <string name="idMandatory">Erreur fatale</string>
+    <string name="levelAnim">Pas de niveau d\'animation</string>
+    <string name="itemOfAnim">Pas d\'animation de l\'élément</string>
+    <string name="taskDeleteMsg">Voulez-vous l\'effacer?</string>
+    <string name="anyTask">Veuillez sélectionner une tâche</string>
+
+
+    <string name="called">nommé</string>
+    <string name="Deletecell">Effacer la cellule</string>
+    <string name="NewCell">Nouvelle cellule:</string>
+    <string name="textAdd">Veuillez ajouter du texte</string>
+    <string name="urlAdd">Veuillez ajouter un lien</string>
+    <string name="InvalidUrl">Lien invalide</string>
+    <string name="TaskEditMode">Mode éditeur de tâches</string>
+    <string name="OnDoubleTap">Sur Double Appui</string>
+    <string name="PackNotSelected">Pas de Pack sélectionné pour le partage</string>
+    <string name="SelectPack">Veuillez d\'abord sélectionner un Pack</string>
+    <string name="EmptyPack">Ce Pack est vide</string>
+    <string name="PackNotSelectedForDelete">Aucune tâche sélectionnée pour suppression</string>
+    <string name="ItemSetHideBy">This item is set as hide by</string>
+    <string name="ItemSetShowedBy">This item is set as showed by</string>
+    <string name="tvReadable">Lisible</string>
+    <string name="tvWriteable">Ecrivable</string>
+    <string name="termsofuse">Conditions d\'utilisation</string>
+    <string name="condition">Condition</string>
+    <string name="abc">ABC</string>
+    <string name="serial">Série</string>
+    <string name="no">NON</string>
+    <string name="name">NOM</string>
+    <string name="level">NIVEAU</string>
+    <string name="sort">CLASSER</string>
+    <string name="circular">Rond</string>
+    <string name="purchase">Acheter</string>
+    <string name="accept">Accepter</string>
+    <string name="list_is_empty">La liste est vide !</string>
+    <string name="share">partager</string>
+    <string name="animation">Animation</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="sound_path">Sound path</string>
+    <string name="taskLoading">Veuuillez patienter, chargement de la tâche...</string>
+    <string name="pleaseWait">Veuillez patienter...</string>
+    <string name="loadinApplicationInfo">Chargement des infos de l\'application...</string>
+    <string name="loadingFeedbackImage">Chargement du Loading feedback Images..</string>
+    <string name="type">Type</string>
+
+    <array name="level" type="string">
+        <item>Non</item>
+        <item>Niveau 1</item>
+        <item>Niveau 2</item>
+        <item>Niveau 3</item>
+        <item>Niveau 4</item>
+        <item>Niveau 5</item>
+        <item>Niveau 6</item>
+        <item>Niveau 7</item>
+        <item>Niveau 8</item>
+        <item>Niveau 9</item>
+    </array>
+    <array name="taskPackType">
+        <item>@string/Answer</item>
+        <item>@string/Match</item>
+        <item>@string/Read</item>
+        <item>@string/Write</item>
+        <item>@string/Classificate</item>
+        <item>@string/Sequence</item>
+
+    </array>
+    <array name="taskPackTypeShort">
+        <item>N</item>
+        <item>A</item>
+        <item>R</item>
+        <item>W</item>
+        <item>D</item>
+        <item>S</item>
+
+    </array>
+
+</resources>

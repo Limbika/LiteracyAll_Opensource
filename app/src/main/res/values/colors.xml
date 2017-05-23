@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_fifty_transparent">#80000000</color>
+    <color name="editor_background">#FFFFFF</color>
+    <color name="blan_space">#f2f2f2</color>
+    <color name="right_drawer_text_color">#1A1A1A</color>
+    <color name="yellow">#FFEB3D</color>
+    <color name="orangeLight">#FFC108</color>
+    <color name="orangeDark">#FF9801</color>
+    <color name="redDark">#FF5623</color>
+    <color name="turquoise">#00978A</color>
+    <color name="green">#4FAF51</color>
+    <color name="greenLight">#8DC34A</color>
+    <color name="lime">#CEDB3A</color>
+    <color name="blueDeep">#4051B7</color>
+    <color name="blueLight">#2295F5</color>
+    <color name="blueRiver">#03A8F5</color>
+    <color name="redLight">#F44338</color>
+    <color name="magenta">#E91E64</color>
+    <color name="purple">#9D26B0</color>
+    <color name="lilac">#693AB8</color>
+    <color name="black">#1A1A1A</color>
+    <color name="grey">#999999</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="light_purple">#EFE3EF</color>
+    <color name="greyLight">#f2f2f2</color>
+    <color name="iPhone_transpar">#D9F9F9F9</color>
+    <color name="greyDark">#888888</color>
+    <color name="transparent_blue">#330000FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="black_1">#000000</color>
+    <color name="black_2">#333333</color>
+    <color name="black_3">#666666</color>
+    <color name="black_4">#999999</color>
+    <color name="black_5">#CCCCCC</color>
+
+    <color name="blue_1">#0055D4</color>
+    <color name="blue_2">#0066FF</color>
+    <color name="blue_3">#2295F5</color>
+    <color name="blue_4">#5599FF</color>
+    <color name="blue_5">#80B3FF</color>
+
+    <color name="green_1">#2CA02C</color>
+    <color name="green_2">#37C837</color>
+    <color name="green_3">#4FAF51</color>
+    <color name="green_4">#5FD35F</color>
+    <color name="green_5">#87DE87</color>
+
+    <color name="grey_1">#E6E6E6</color>
+    <color name="grey_2">#ECECEC</color>
+    <color name="grey_3">#F2F2F2</color>
+    <color name="grey_4">#FFFFFF</color>
+    <color name="grey_5">#FFFFFF</color>
+
+    <color name="marine_1">#212178</color>
+    <color name="marine_2">#3737C8</color>
+    <color name="marine_3">#4051B7</color>
+    <color name="marine_4">#5F5FD3</color>
+    <color name="marine_5">#8787DE</color>
+
+    <color name="orange_1">#D45500</color>
+    <color name="orange_2">#FF6600</color>
+    <color name="orange_3">#FF9801</color>
+    <color name="orange_4">#FF7F2A</color>
+    <color name="orange_5">#FF9955</color>
+
+    <color name="pink_1">#D40055</color>
+    <color name="pink_2">#FF0066</color>
+    <color name="pink_3">#E91E64</color>
+    <color name="pink_4">#FF5599</color>
+    <color name="pink_5">#FF80B2</color>
+
+    <color name="purple_1">#892CA0</color>
+    <color name="purple_2">#AB37C8</color>
+    <color name="purple_3">#9D26B0</color>
+    <color name="purple_4">#BC5FD3</color>
+    <color name="purple_5">#CD87DE</color>
+
+    <color name="red_1">#D40000</color>
+    <color name="red_2">#FF2A2A</color>
+    <color name="red_3">#F44338</color>
+    <color name="red_4">#FF5555</color>
+    <color name="red_5">#FF8080</color>
+
+    <color name="turquesa_1">#008066</color>
+    <color name="turquesa_2">#2CA089</color>
+    <color name="turquesa_3">#00978A</color>
+    <color name="turquesa_4">#37C8AB</color>
+    <color name="turquesa_5">#37C8AB</color>
+
+    <color name="yellow_1">#FFCC00</color>
+    <color name="yellow_2">#FFD42A</color>
+    <color name="yellow_3">#FFEB3D</color>
+    <color name="yellow_4">#FFDD55</color>
+    <color name="yellow_5">#FFE680</color>
+
+
+    <array name="colorPicker">
+        <item>@color/grey_1</item>
+        <item>@color/grey_2</item>
+        <item>@color/grey_3</item>
+        <item>@color/grey_4</item>
+        <item>@color/grey_5</item>
+
+        <item>@color/black_1</item>
+        <item>@color/black_2</item>
+        <item>@color/black_3</item>
+        <item>@color/black_4</item>
+        <item>@color/black_5</item>
+
+        <item>@color/yellow_1</item>
+        <item>@color/yellow_2</item>
+        <item>@color/yellow_3</item>
+        <item>@color/yellow_4</item>
+        <item>@color/yellow_5</item>
+
+        <item>@color/orange_1</item>
+        <item>@color/orange_2</item>
+        <item>@color/orange_3</item>
+        <item>@color/orange_4</item>
+        <item>@color/orange_5</item>
+
+        <item>@color/turquesa_1</item>
+        <item>@color/turquesa_2</item>
+        <item>@color/turquesa_3</item>
+        <item>@color/turquesa_4</item>
+        <item>@color/turquesa_5</item>
+
+        <item>@color/green_1</item>
+        <item>@color/green_2</item>
+        <item>@color/green_3</item>
+        <item>@color/green_4</item>
+        <item>@color/green_5</item>
+
+        <item>@color/marine_1</item>
+        <item>@color/marine_2</item>
+        <item>@color/marine_3</item>
+        <item>@color/marine_4</item>
+        <item>@color/marine_5</item>
+
+        <item>@color/blue_1</item>
+        <item>@color/blue_2</item>
+        <item>@color/blue_3</item>
+        <item>@color/blue_4</item>
+        <item>@color/blue_5</item>
+
+        <item>@color/purple_1</item>
+        <item>@color/purple_2</item>
+        <item>@color/purple_3</item>
+        <item>@color/purple_4</item>
+        <item>@color/purple_5</item>
+
+        <item>@color/pink_1</item>
+        <item>@color/pink_2</item>
+        <item>@color/pink_3</item>
+        <item>@color/pink_4</item>
+        <item>@color/pink_5</item>
+
+        <item>@color/red_1</item>
+        <item>@color/red_2</item>
+        <item>@color/red_3</item>
+        <item>@color/red_4</item>
+        <item>@color/red_5</item>
+
+    </array>
+
+
+</resources>

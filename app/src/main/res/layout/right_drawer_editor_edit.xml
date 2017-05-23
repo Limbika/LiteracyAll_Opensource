@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".75"
+        android:orientation="vertical"
+        android:weightSum="1"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_weight=".25"
+        android:background="@drawable/entry_slide_background"
+        android:orientation="vertical"
+        android:weightSum="1.1">
+
+        <!--this is the start of a row-->
+        <View
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:orientation="vertical"></View>
+
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Switch
+                android:id="@+id/swCloseAppEdit"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="left"
+                android:textColor="@color/right_drawer_text_color" />
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical"></View>
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/CloseApp"
+                android:textColor="@color/right_drawer_text_color" />
+        </LinearLayout>
+
+
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Switch
+                android:id="@+id/swNavigatesEdit"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="left"
+                android:textColor="@color/right_drawer_text_color" />
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical"></View>
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/NavigatesTo"
+                android:textColor="@color/right_drawer_text_color" />
+        </LinearLayout>
+
+
+        <!--this is the start of a row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Switch
+                android:id="@+id/swOpenAppEdit"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="left"
+                android:textColor="@color/right_drawer_text_color" />
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:orientation="vertical"></View>
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/OpenApp"
+                android:textColor="@color/right_drawer_text_color" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnURLEdit"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_url" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/AddURL"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnAddImageEdit"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_image_insert" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/TakeImage"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnAddTextEdit"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_new_text" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/AddText"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lnReadText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnReadText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_read_text" />
+
+            <TextView
+                android:id="@+id/tvReadText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/ReadText"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnWriteText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnWriteText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_read_text" />
+
+            <TextView
+                android:id="@+id/tvWriteText"
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/WriteText"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibtnItemSoundEdit"
+                android:layout_width="@dimen/zero"
+                android:layout_height="@dimen/fifty"
+                android:layout_marginRight="@dimen/five"
+                android:layout_weight=".4"
+                android:background="?android:attr/selectableItemBackground"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_new_sound" />
+
+            <TextView
+                android:layout_width="@dimen/zero"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                android:gravity="left"
+                android:text="@string/Sound"
+                android:textColor="@color/right_drawer_text_color" />
+            <!--this is the end of a row-->
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".1"
+            android:orientation="vertical"></View>
+
+        <!--  this is the end of mother height layout-->
+    </LinearLayout>
+
+
+</LinearLayout>

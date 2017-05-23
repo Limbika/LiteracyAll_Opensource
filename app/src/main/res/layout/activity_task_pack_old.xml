@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="com.literacyall.app.activities.TaskPackOldActivity">
+
+    <GridView
+        android:id="@+id/gvTaskPack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="120dp"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/eighteen"
+        android:listSelector="#00000000"
+        android:numColumns="5"
+        android:paddingBottom="@dimen/eighteen"
+        android:paddingLeft="@dimen/thirty_five"
+        android:paddingRight="@dimen/eighteen"
+        android:paddingTop="@dimen/thirty_five"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/eighteen" />
+
+    <ImageButton
+        android:id="@+id/ibtnBackTaskPack"
+        android:layout_width="@dimen/fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/twenty"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_back_image" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="@dimen/thirty"
+            android:layout_marginRight="@dimen/twenty_five"
+            android:src="@drawable/ic_plus" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

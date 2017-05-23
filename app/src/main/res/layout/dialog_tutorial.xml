@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="700dp"
+    android:layout_height="@dimen/four_hundred"
+    android:background="@drawable/dialog_bg">
+
+
+    <LinearLayout
+        android:id="@+id/llTutorialCorrectAnswer"
+        android:layout_width="@dimen/hundred_thirty"
+        android:layout_height="@dimen/hundred_thirty"
+        android:background="@drawable/dialog_bg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/eighty"
+        android:layout_marginTop="@dimen/fifty"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/ibtnTutorialCorrectAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/fifteen"
+            android:layout_weight=".7"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_camera" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:gravity="top|center"
+            android:text="@string/CorrectAnswer"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twelve" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTutorialClassificate"
+        android:layout_width="@dimen/hundred_thirty"
+        android:layout_height="@dimen/hundred_thirty"
+        android:background="@drawable/dialog_bg"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fifty"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/ibtnTutorialClassificate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/fifteen"
+            android:layout_weight=".7"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_camera" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:gravity="top|center"
+            android:text="@string/Classificate"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twelve" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTutorialMatch"
+        android:layout_width="@dimen/hundred_thirty"
+        android:layout_height="@dimen/hundred_thirty"
+        android:background="@drawable/dialog_bg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/eighty"
+        android:layout_marginTop="@dimen/fifty"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/ibtnTutorialMatch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/fifteen"
+            android:layout_weight=".7"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_camera" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:gravity="top|center"
+            android:text="@string/Match"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twelve" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTutorialRead"
+        android:layout_width="@dimen/hundred_thirty"
+        android:layout_height="@dimen/hundred_thirty"
+        android:background="@drawable/dialog_bg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/eighty"
+        android:layout_marginBottom="@dimen/fifty"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/ibtnTutorialRead"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/fifteen"
+            android:layout_weight=".7"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_camera" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:gravity="top|center"
+            android:text="@string/Read"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twelve" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTutorialWrite"
+        android:layout_width="@dimen/hundred_thirty"
+        android:layout_height="@dimen/hundred_thirty"
+        android:background="@drawable/dialog_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/fifty"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/ibtnTutorialWrite"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/fifteen"
+            android:layout_weight=".7"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_camera" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:gravity="top|center"
+            android:text="@string/Write"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twelve" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTutorialSequence"
+        android:layout_width="@dimen/hundred_thirty"
+        android:layout_height="@dimen/hundred_thirty"
+        android:background="@drawable/dialog_bg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/eighty"
+        android:layout_marginBottom="@dimen/fifty"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/ibtnTutorialSequence"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/fifteen"
+            android:layout_weight=".7"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_camera" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:gravity="top|center"
+            android:text="@string/Sequence"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twelve" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

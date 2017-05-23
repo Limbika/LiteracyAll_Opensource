@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background -->
+    <item android:drawable="@drawable/bg_gray_oval_disabled"/>
+    <item>
+        <bitmap
+            android:gravity="right|bottom"
+            android:src="@drawable/ic_material_lock" />
+    </item>
+
+</layer-list>

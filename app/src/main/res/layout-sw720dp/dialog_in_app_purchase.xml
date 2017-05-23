@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tvRemain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".4"
+            android:gravity="right|bottom"
+            android:layout_marginRight="@dimen/thirty"
+            android:text=" "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvSubscribe"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".6"
+            android:gravity="center"
+            android:text="@string/purchase"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edtSubscribe"
+            android:layout_width="@dimen/five_hundred"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".5"
+            android:background="@drawable/dotted_border"
+            android:gravity="center"
+            android:imeActionLabel="Done"
+            android:imeOptions="actionDone"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"></TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".5"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:background="@drawable/nothanks_background"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/btnSubscribe"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:background="@drawable/btn_bg"
+                android:text="@string/subscribe" />
+
+            <Button
+                android:id="@+id/btnSubscribeBuy"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:background="@drawable/btn_bg"
+                android:text="@string/subscribeBuy" />
+
+            <Button
+                android:id="@+id/btnBuy"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:background="@drawable/subscribe_background"
+                android:text="@string/buy" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

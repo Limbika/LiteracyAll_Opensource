@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/two_hundred"
+    android:layout_height="@dimen/three_hundred"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/ten"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/btnEntryMatch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:text="@string/Match"
+            android:textColor="@color/greyDark" />
+
+
+        <Button
+            android:id="@+id/btnEntryAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/Answer"
+            android:textColor="@color/greyDark" />
+
+
+        <Button
+            android:id="@+id/btnEntryWrite"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/Write"
+            android:textColor="@color/greyDark" />
+
+        <Button
+            android:id="@+id/btnEntryRead"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/Read"
+            android:textColor="@color/greyDark" />
+
+        <Button
+            android:id="@+id/btnEntryClassificate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/Classificate"
+            android:textColor="@color/greyDark" />
+
+    </LinearLayout>
+
+</RelativeLayout>

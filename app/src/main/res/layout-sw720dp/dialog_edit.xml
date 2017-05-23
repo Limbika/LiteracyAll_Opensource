@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/four_hundred"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".7"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/twenty"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".2"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:text="@string/name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_twenty" />
+
+                <EditText
+                    android:id="@+id/edtName"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:background="@drawable/dialog_edt_bg"
+                    android:gravity="center"
+                    android:hint="@string/name"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_twenty" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".2"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tvLevel"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:text="@string/level"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_twenty" />
+
+
+                <Spinner
+                    android:id="@+id/spLevel"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:hint="@string/level"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".2"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tvSortType"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:text="@string/sort"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_twenty" />
+
+                <Spinner
+                    android:id="@+id/spSort"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center"
+                    android:hint="@string/sort"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_twenty" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/zero"
+                android:layout_weight=".1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight=".3"
+            android:orientation="horizontal"
+            android:padding="@dimen/twenty"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/btnCancelPermission"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/five"
+                android:layout_weight=".2"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_cancel_grey"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="fill_parent"
+                android:layout_weight=".2" />
+
+            <ImageButton
+                android:id="@+id/ibtnExit"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/five"
+                android:layout_weight=".2"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/five"
+                android:visibility="invisible"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_exit_grey"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="@dimen/zero"
+                android:layout_height="fill_parent"
+                android:layout_weight=".2" />
+
+            <ImageButton
+                android:id="@+id/ibtnSaveTaskPack"
+                android:layout_width="@dimen/zero"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_margin="@dimen/five"
+                android:layout_weight=".2"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:padding="@dimen/five"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_confirm_grey"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AbsListView" parent="@android:style/Widget.AbsListView">
+        <item name="android:listSelector">@null</item>
+        <item name="android:divider">@android:color/transparent</item>
+    </style>
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/bg_theme_edittext</item>
+    </style>
+    <style name="MaterialDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:radioButtonStyle">@style/RadioButton</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:scrollbarThumbVertical">@drawable/bg_neutral_round_normal</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/bg_neutral_round_normal</item>
+        <item name="android:checkboxStyle">@style/RadioButton</item>
+        <item name="android:listViewStyle">@style/AbsListView</item>
+    </style>
+    <style name="MaterialTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:dialogTheme">@style/MaterialDialog</item>
+        <item name="android:radioButtonStyle">@style/RadioButton</item>
+        <item name="android:scrollbarThumbVertical">@drawable/bg_neutral_round_normal</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/bg_neutral_round_normal</item>
+        <item name="android:scrollbarSize">@dimen/dp_01</item>
+        <item name="android:progressDrawable">@drawable/progress_color</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:checkboxStyle">@style/RadioButton</item>
+        <item name="android:listViewStyle">@style/AbsListView</item>
+    </style>
+    <style name="RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/btn_radio</item>
+    </style>
+    <style name="Theme.Dialog.NoTitle" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/translucent</item>
+    </style>
+</resources>

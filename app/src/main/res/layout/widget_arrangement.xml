@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum=".9">
+
+            <include
+                android:id="@+id/day_one"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_two"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_three"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_four"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_five"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_six"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_seven"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum=".9">
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_one"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_two"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_three"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_four"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_five"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_six"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_seven"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum=".9">
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_one"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_two"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_three"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_four"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_five"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_six"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_seven"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum=".9">
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_one"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_two"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_three"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_four"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_five"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_six"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_seven"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum=".9">
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_one"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_two"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_three"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_four"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_five"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_six"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_seven"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum=".9">
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_one"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_two"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_three"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_four"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_five"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_six"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_seven"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum=".9">
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_one"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_two"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_three"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_four"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_five"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_six"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_seven"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum=".9">
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_one"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_two"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_three"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_four"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_five"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_six"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                android:id="@+id/day_seven"
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+
+            <include
+                layout="@layout/commom_cell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

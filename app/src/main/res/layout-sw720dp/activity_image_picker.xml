@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/ten"
+    android:background="@drawable/dialog_bg">
+
+
+    <GridView
+        android:id="@+id/gvImagePicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:columnWidth="120dp"
+        android:horizontalSpacing="@dimen/eighteen"
+        android:listSelector="#00000000"
+        android:numColumns="5"
+        android:paddingBottom="@dimen/eighteen"
+        android:paddingLeft="@dimen/thirty_five"
+        android:paddingRight="@dimen/eighteen"
+        android:paddingTop="@dimen/fifty"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/eighteen" />
+
+
+    <ImageButton
+        android:id="@+id/ibtnImagePickerSelect"
+        android:layout_width="@dimen/hundred"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/five"
+        android:scaleType="fitCenter"
+        android:src="@drawable/folder" />
+
+    <EditText
+        android:id="@+id/edtImagePickerSearch"
+        android:layout_width="@dimen/three_hundred"
+        android:layout_height="@dimen/fourty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/two_hundred"
+        android:layout_marginTop="@dimen/ten"
+        android:hint="@string/Search"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/ibtnImagePickerSearch"
+        android:layout_width="@dimen/hundred"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/hundred"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/five"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_search"
+        android:visibility="gone" />
+
+</RelativeLayout>

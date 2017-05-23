@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">Literacyall</string>
+    <string name="addTest">Add Text</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="image_folder_path">/Android/Data/ImageStorage</string>
+    <string name="Correct">Correct</string>
+    <string name="CorrectAnswer">Correct answer</string>
+    <string name="Classificate">Classificate</string>
+    <string name="Match">Match</string>
+    <string name="Read">Read</string>
+    <string name="Write">Write</string>
+    <string name="Sequence">Sequence</string>
+    <string name="Answer">Answer</string>
+    <string name="All">All</string>
+
+    <string name="Tutorial">Tutorials</string>
+    <string name="QuickGuide">Quick guide</string>
+    <string name="Methodology">Methodology</string>
+    <string name="tryAgain">Please try again</string>
+    <string name="DoneRead">Done:</string>
+    <string name="savetext">savetext:</string>
+    <string name="selectForEdit">Please select a pack to edit</string>
+    <string name="Nothinghere">Nothing here</string>
+    <string name="Search">Search</string>
+
+
+    <string name="InCorrect">InCorrect</string>
+    <string name="DragDrop">Drag and Drop</string>
+    <string name="HiddenBy">Hidden from</string>
+    <string name="ShowedBy">Showed from</string>
+    <string name="Target">Target</string>
+    <string name="Child">Child</string>
+    <string name="CloseApp"> Close the app </string>
+    <string name="Done">Done</string>
+    <string name="TakeImage">Image </string>
+    <string name="AddText">Text</string>
+    <string name="ReadText">Read Text</string>
+    <string name="WriteText">Write Text</string>
+    <string name="NavigatesTo">Navigates to</string>
+    <string name="LinkedTo">Linked To</string>
+    <string name="OpenApp">Open App</string>
+    <string name="InsertVideo">Insert Video</string>
+    <string name="InsertAudio">Insert Audio</string>
+    <string name="InsertImage">Insert Image</string>
+    <string name="AutoPlay">Auto Play</string>
+    <string name="Delay">Delay</string>
+    <string name="Anim">Anim</string>
+    <string name="Sound">Sound</string>
+    <string name="AddSound">Add Sound</string>
+    <string name="Font">Font</string>
+    <string name="FontColor">Font Color</string>
+    <string name="Text">Text</string>
+    <string name="TaskPackName">Task Pack Name</string>
+    <string name="TaskLevel">Task Level</string>
+    <string name="TaskId">Task Id</string>
+    <string name="FullScreen">Full Screen</string>
+    <string name="URL">URL</string>
+    <string name="AddPixel">Add Pixel</string>
+    <string name="Pixel">Pixel</string>
+    <string name="inputPixel">Input Range 1 to 100</string>
+    <string name="AddURL">URL</string>
+    <string name="BackgroundColor"> Background Color </string>
+    <string name="Border">Border</string>
+    <string name="BorderColor">Border Color</string>
+    <string name="BorderPx">Pixel</string>
+    <string name="BorderShadow">Border Shadow</string>
+    <string name="ShadowPx">Shadow px</string>
+    <string name="CornerRounded">Corner Rounded</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="Feedback">Feedback</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="ok">OK</string>
+    <string name="BackPermission">Do you want to go back?</string>
+    <string name="savePermission">Do you want to save before exit?</string>
+    <string name="SorryText">SORRY! FOR SOMETHING WENT WRONG.</string>
+    <string name="btnText">PLEASE REPORT TO US </string>
+    <string name="addText">Please add text</string>
+    <string name="copyTask">Do you want to make copy this slide.</string>
+    <string name="newTask">Do you want to save before create</string>
+    <string name="DropTarget">Select an Item to drop in this target</string>
+    <string name="CalculateDrag">calculateDrag</string>
+    <string name="addItem">Please add an Item first !</string>
+    <string name="SequenceText">Click on the view to start creating the sequence</string>
+    <string name="SequenceTextBelow">The currently selected sequence is</string>
+
+
+    <string name="Erasmus">LiterALLcy (“Adaptative – Literacy technological application for people with functional diversity.”) is a
+ERASMUS+ granted project started in 2014 between 4 partners: Limbika (Spain), ARPEI (France), LEUS (Lithuania) and
+Eleka (Spain). The main objective of the project is to develop an accessible, adaptive and open source application for
+teaching and learning literacy. The application will incorporate a methodology of teaching and implementation aimed at
+facilitating the incorporation of ICT into mainstream education for people with special needs, across the European Union.</string>
+
+    <string name="itemSelectedCurrentDropTarget">This item is selected for current drop target</string>
+    <string name="allignmentTypeSelectFirst">Select alignment type first !</string>
+    <string name="dropTargetItemCannotSelect">You can\'t select a drop target item !</string>
+    <string name="cannotSelectSameItem">You can\'t select same Item to send back !</string>
+    <string name="alreadyInbackSelectedItem">This Item is already in back of selected item !</string>
+    <string name="sameItem">You can not select same Item !</string>
+    <string name="alreadyInFrontSelectedItem">This Item is already in front of selected item !</string>
+    <string name="TextLeftAlign">Selected text align left</string>
+    <string name="TextRighttAlign">Selected text align right</string>
+    <string name="TextCenterAlign">Selected text align center</string>
+    <string name="TextAllAlign">Selected text align All</string>
+    <string name="errorFeedback">Error feedback set successfully !</string>
+    <string name="emptyErrorFeedback">Please add text, image and background color</string>
+    <string name="emptyErrorMsg">ERROR</string>
+    <string name="done">DONE</string>
+    <string name="sharePreparing">Please wait,Preparing for share..</string>
+    <string name="cancel">Cancel</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscribeBuy">Subscribe Buy</string>
+    <string name="buy">Buy</string>
+    <string name="daysLeft"> Days left</string>
+    <string name="itemPurchased"> Item Purchased</string>
+    <string name="serviceUnavailable">In-app billing service is unavailable, please upgrade Android Market/Play to version >= 3.9.16</string>
+    <string name="itemNotPurchased">Sorry! Item could not be purchased</string>
+    <string name="emailText">I want to subscribe the news letter.</string>
+    <string name="emailSubject"> Subject </string>
+    <string name="dropTargetAlready">The view is already a target it can not be a child.</string>
+    <string name="mindAppTaskPack"> Literacy App Task Pack </string>
+    <string name="shareFile">Share File</string>
+    <string name="selectedTask">Selected Tasks</string>
+    <string name="oneTaskPackSelected">One task pack selected</string>
+    <string name="sharingTaskPack">Sharing Task Packs</string>
+    <string name="task">Tasks</string>
+    <string name="alreadyThisPosition">You are already in this position!</string>
+    <string name="deleteMsg"> Delete entry</string>
+    <string name="deleteAlertMsg"> Are you sure you want to delete this Task?</string>
+    <string name="longTapDeleteMsg"> Long tap on a Task to delete !</string>
+    <string name="SwitcherText">You don\'t have the permission to do so.</string>
+
+    <string name="emptyTextField">Text Field Empty!</string>
+    <string name="notSupportedFile">file not supported</string>
+    <string name="targetDeleted">Target Deleted</string>
+    <string name="childDeleted">Child Deleted</string>
+    <string name="TapItemToSetShow">Tap on an item to set show by this</string>
+    <string name="SelectItemToHide">Select an item to hide</string>
+    <string name="NeedItemAdded">You need atleast 2 items added</string>
+    <string name="TapItemToSetHide">Tap on an item to set hide by this</string>
+    <string name="jsonImport">Please wait, preparing for import task ..</string>
+    <string name="idMandatory">Error Mandatory</string>
+    <string name="levelAnim">No Level Animation</string>
+    <string name="itemOfAnim">No Item Animation</string>
+    <string name="taskDeleteMsg">Do you want to delete?</string>
+    <string name="anyTask">Please select a task</string>
+
+
+    <string name="called">called</string>
+    <string name="Deletecell">Deletecell</string>
+    <string name="NewCell">New cell:</string>
+    <string name="textAdd">Please add text</string>
+    <string name="urlAdd">Please add url</string>
+    <string name="InvalidUrl">Invalid url</string>
+    <string name="TaskEditMode">task EditMode</string>
+    <string name="OnDoubleTap">onDoubleTap</string>
+    <string name="PackNotSelected">No Pack selected for share</string>
+    <string name="SelectPack">Please select a Pack first</string>
+    <string name="EmptyPack">This pack is empty</string>
+    <string name="PackNotSelectedForDelete">No Task is selected for delete</string>
+    <string name="ItemSetHideBy">This item is set as hide by</string>
+    <string name="ItemSetShowedBy">This item is set as showed by</string>
+    <string name="tvReadable">Readable</string>
+    <string name="tvWriteable">Writeable</string>
+    <string name="termsofuse">TermsofUse</string>
+    <string name="condition">Condition</string>
+    <string name="abc">ABC</string>
+    <string name="serial">Serial</string>
+    <string name="no">NO</string>
+    <string name="name">NAME</string>
+    <string name="level">LEVEL</string>
+    <string name="sort">SORT</string>
+    <string name="circular">Circular</string>
+    <string name="purchase">Purchase</string>
+    <string name="accept">Accept</string>
+    <string name="list_is_empty">List is Empty!</string>
+    <string name="share">share</string>
+    <string name="animation">Animation</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="sound_path">Sound path</string>
+    <string name="taskLoading">Please wait, Loading Task..</string>
+    <string name="pleaseWait">please wait ...</string>
+    <string name="loadinApplicationInfo">Loading application info...</string>
+    <string name="loadingFeedbackImage">Loading feedback Images..</string>
+    <string name="type">Type</string>
+
+    <array name="level" type="string">
+        <item>None</item>
+        <item>level 1</item>
+        <item>level 2</item>
+        <item>level 3</item>
+        <item>level 4</item>
+        <item>level 5</item>
+        <item>level 6</item>
+        <item>level 7</item>
+        <item>level 8</item>
+        <item>level 9</item>
+    </array>
+    <array name="taskPackType">
+        <item>@string/Answer</item>
+        <item>@string/Match</item>
+        <item>@string/Read</item>
+        <item>@string/Write</item>
+        <item>@string/Classificate</item>
+        <item>@string/Sequence</item>
+
+    </array>
+    <array name="taskPackTypeShort">
+        <item>N</item>
+        <item>A</item>
+        <item>R</item>
+        <item>W</item>
+        <item>D</item>
+        <item>S</item>
+
+    </array>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/bg_gray_round_disabled"
+        android:bottom="5dp"
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/disabled" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="right|bottom"
+            android:src="@drawable/ic_material_lock" >
+        </bitmap>
+    </item>
+
+</layer-list>

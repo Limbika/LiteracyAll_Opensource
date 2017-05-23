@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <declare-styleable name="lockable">
+        <attr name="state_locked" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ToggleImageButton">
+        <attr name="android:checked" />
+    </declare-styleable>
+    <declare-styleable name="AccesibleStyledSeekBar">
+        <attr name="left" format="integer" />
+        <attr name="rigth" format="integer" />
+    </declare-styleable>
+
+</resources>
