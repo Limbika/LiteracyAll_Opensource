@@ -58,5 +58,15 @@
         android:scaleType="fitCenter"
         android:src="@drawable/ic_search"
         android:visibility="gone" />
-
+    <ImageButton
+        android:id="@+id/ibtnBackImagePicker"
+        android:layout_width="@dimen/hundred"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/hundred"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/five"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_back_grey" />
 </RelativeLayout>

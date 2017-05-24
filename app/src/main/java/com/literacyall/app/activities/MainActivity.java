@@ -3472,7 +3472,8 @@ public class MainActivity extends BaseActivity implements OnDoubleTapListener.Ge
     public void selectAnimDialog() {
 
         String serial[] = {"0", "1", "2", "3", "4", "5"};
-        final String animationName[] = {"No Animation", "Alpha 1", "Alpha 2", "Blink 1", "Upside Down", "Down Upside"};
+        final String animationName[] =  {"No Animation", "Alpha 1", "Alpha 2", "Blink 1", "Down Upside", "Upside Down"};
+
 
         ArrayList<Integer> lstgifImg = new ArrayList<Integer>();
         lstgifImg.add(R.drawable.ic_normal);

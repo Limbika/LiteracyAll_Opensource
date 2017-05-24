@@ -68,7 +68,6 @@ public class ImagePickerActivity extends BaseActivity {
                 gridView(imageList);
             }
         } else {
-            Log.d("For IMagepicker:", SharedPreferenceValue.getFilePath(activity));
             if (SharedPreferenceValue.getFilePath(activity) != null) {
 
                 imageList = getImagePickerImages(SharedPreferenceValue.getFilePath(activity));
